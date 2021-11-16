@@ -68,14 +68,6 @@ Register Should Succeed
 Submit Credentials
     Click Button  Register
 
-Set Username
-    [Arguments]  ${username}
-    Input Text  username  ${username}
-
-Set Password
-    [Arguments]  ${password}
-    Input Password  password  ${password}
-
 Set Password Confirmation
     [Arguments]  ${password}
     Input Password  password_confirmation  ${password}
